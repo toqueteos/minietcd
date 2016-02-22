@@ -5,5 +5,5 @@ go:
   - tip
 install:
   - ./etcd-install.sh
-before_install:
+before_script:
   - ./etcd-setup.sh
