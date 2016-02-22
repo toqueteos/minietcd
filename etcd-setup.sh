@@ -4,7 +4,7 @@ set -e
 
 cd $HOME/etcd;
 
-./etcd &;
+./etcd &
 
 ./etcdctl --timeout "5s" mkdir foo
 ./etcdctl --timeout "5s" set foo/foo "Hello"
