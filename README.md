@@ -1,4 +1,4 @@
-# minietcd
+# minietcd [![Travis badge](https://travis-ci.org/toqueteos/minietcd.svg?branch=master)](https://travis-ci.org/toqueteos/minietcd) [![GoDoc](http://godoc.org/github.com/toqueteos/minietcd?status.png)](http://godoc.org/github.com/toqueteos/minietcd)
 
 Super small and _"dumb"_ read-only client for [coreos/etcd](https://github.com/coreos/etcd).
 
