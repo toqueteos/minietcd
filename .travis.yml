@@ -1,0 +1,9 @@
+language: go
+go:
+  - 1.5
+  - 1.6
+  - tip
+install:
+  - ./etcd-install.sh
+before_install:
+  - ./etcd-setup.sh
